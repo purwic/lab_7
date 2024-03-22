@@ -58,7 +58,7 @@ namespace ConsoleApp2
 
             for (int i = 0; i < 15; i++)
             {
-                if(i % 2 == 0)
+                if((i+1) % 2 == 0)
                 {
                     sum += b[i];
                 }
